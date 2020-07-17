@@ -1,0 +1,27 @@
+/************************************* SearchForm Page **********************************************/
+.search-form-results{width: 100%; margin-top: 30px;}
+.search-form-results .form-group{width: 100%; display: flex;}
+.search-form-results .form-group .form-control{
+    height: 40px;
+    margin: auto;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 19px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 19px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 19px -8px rgba(0,0,0,0.75); 
+    padding: 0px 20px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.search-form-results .form-group .btn{
+    background-color: var(--general);
+    color:#fff;
+    transition: 250ms;
+}
+.search-form-results .form-group .btn:hover{
+    background-color: var(--generalH);
+}
+
+

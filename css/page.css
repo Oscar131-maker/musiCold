@@ -1,0 +1,59 @@
+.index-page{
+    width:100%;
+    background-color:rgb(242, 245, 248);
+}
+.index-page .thumbnail-page{
+    width: 100%;
+    height: 500px;
+}
+.index-page .thumbnail-page img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.top-page{
+    width: 100%;
+    background: linear-gradient(to bottom, #f8f8f8 0%, #e9e9e9 100%);
+}
+.top-page .titles-content-page{
+    width: 80%;
+    margin: auto;
+    padding:50px 0px;
+    text-align: center;
+}
+.top-page .titles-content-page .page-title{
+    font-size:35px;
+    font-family: 'Merienda One', cursive;
+}
+.page-content{
+    width: 70%;
+    margin:auto;
+    padding-top:50px;
+}
+.page-content p{
+    font-size: 18px;
+    color:#202124;
+    line-height: 36px;
+}
+.page-content p a{
+    color: var(--general);
+    transition: 300ms;
+    font-weight: 500;
+    text-decoration: none;
+}
+.page-content p a:hover{
+    color: var(--generalH);
+}
+.page-content .wp-block-image{
+    width:100%;
+}
+.page-content .size-full img{
+    width: 100%;
+}
+.page-content .wp-block-audio audio{
+    width: 100%;
+}
+.page-content .wp-block-video video{
+    width: 100%;
+}
+

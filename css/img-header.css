@@ -1,0 +1,45 @@
+#image-header{
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-image: url(../assets/images/img-2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.3);
+    background-blend-mode: soft-light; 
+}
+#image-header .text-header{
+    width:90%;
+    height: 100%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#image-header .text-header h2{
+    color:var(--white);
+    font-size:30px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Merienda One', cursive;
+}
+#image-header .text-header p{
+    color: var(--white) !important;
+    font-size: 23px;
+    margin-top: 10px;
+    text-align: center;
+}
+#image-header .text-header .btn{
+    border:1px solid var(--white);
+    color: var(--white);
+    transition: 250ms;
+    margin-top: 10px;
+    text-align: center;
+}
+#image-header .text-header .btn:hover{
+    border:1px solid transparent;
+    background-color: var(--general);
+}
+
+

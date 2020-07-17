@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Merienda+One&display=swap');
+
+:root{
+    --general:#fe346e;
+    --generalH:#ff7694;
+    --black:#252a34;
+    --white:#fff;
+}
+
+body{
+    background:#fff;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+main{
+    width: 100%;
+}
+h1{font-size: 40px;}
+h2{font-size: 35px;}
+h3{font-size: 30px;}
+h4{font-size: 25px;}
+h5{font-size: 20px;}
+h6{font-size: 20px;}
+
+a{
+    color: var(--general);
+    transition: 300ms;
+}
+a:hover{
+    color: var(--generalH);
+}
+.btn{
+    background-color: var(--general);
+    color: #fff;
+    transition: 250ms;
+}
+.btn:hover{
+    background-color: var(--generalH);
+}
+.page-link{
+    color: var(--black) !important;
+}
+
+
+
+
+
+
